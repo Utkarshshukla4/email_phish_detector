@@ -1,0 +1,7 @@
+id,subject,body,from_email,label
+1,"Account suspended","Your account has been suspended. Click here to verify: http://phish.example/login","support@yourbank.com",1
+2,"Invoice for your order","Attached invoice for your recent purchase. See attachment.","orders@amazon.com",0
+3,"URGENT: Password reset required","We detected suspicious activity. Reset now: http://phishing.example/reset","security@bank.com",1
+4,"Meeting agenda","Here is the agenda for tomorrow's meeting.","colleague@company.com",0
+5,"Confirm your payment","Confirm your payment details here: http://bad-example.com/pay","payments@paypal.com",1
+6,"Thanks for applying","Thank you for applying to our company. We'll contact you.","recruiter@company.com",0
