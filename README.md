@@ -80,10 +80,10 @@ pip install -r requirements.txt
 
 ## Running the Project
 Windows:-
-python main.py
+python src/train.py
 
 Linux / macOS:-
-python3 main.py
+python3 src/train.py
 
 
 ## Input Example
@@ -94,6 +94,8 @@ Paste an email message or subject line in the input box.
 Prediction: Phishing Email  
 Confidence: 95%
 
+## Notes
+Replace data/sample_emails.csv with a larger labeled dataset for production use.
 
 ## Summary
 
