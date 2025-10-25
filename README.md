@@ -65,7 +65,7 @@ git clone https://github.com/Utkarshshukla4/email_phish_detector.git
 cd email_phish_detector
 
 ## Create Environment 
-Windows:
+_Windows:_
 
 python -m venv venv
 
@@ -74,7 +74,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 
-Linux / macOS:
+_Linux / macOS:_
 
 python3 -m venv venv
 
