@@ -1,19 +1,21 @@
 ## Contact
 
-Utkarsh Shukla
+**Utkarsh Shukla**
 
 Email- utqrshkumar07@gmail.com
 
- GitHub- https://github.com/Utkarshshukla4
+GitHub- https://github.com/Utkarshshukla4
 
 
 
 ##  Overview
+
 This project detects phishing emails using a trained machine learning model that analyzes subject lines, URLs, and header patterns.  
 It’s lightweight, easy to run, and ideal for securing personal or enterprise email systems.
 
 
 ##  Features
+
 - Email text and header feature extraction  
 - Machine learning classification (phish / not phish)  
 - Confidence scoring for each result  
@@ -35,6 +37,7 @@ It’s lightweight, easy to run, and ideal for securing personal or enterprise e
 
 
 ## Project Structure
+
 email-phish-detector/
 ├── src/
 ├── sample_data/
@@ -47,6 +50,7 @@ email-phish-detector/
 
    
 ## Steps
+
 Clone this repository.
 
 Create a virtual environment.
@@ -54,10 +58,11 @@ Create a virtual environment.
 Install dependencies.
 
 
-## For First Installation
-git clone https://github.com/Utkarshshukla4/email-phish-detector.git
+## Installation
 
-cd email-phish-detector
+git clone https://github.com/Utkarshshukla4/email_phish_detector.git
+
+cd email_phish_detector
 
 ## Create Environment 
 Windows:
@@ -79,10 +84,12 @@ pip install -r requirements.txt
 
 
 ## Running the Project
-Windows:-
+_Windows:-_
+
 python src/train.py
 
-Linux / macOS:-
+_Linux / macOS:-_
+
 python3 src/train.py
 
 
