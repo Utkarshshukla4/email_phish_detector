@@ -94,7 +94,7 @@ Paste an email message or subject line in the input box.
 Prediction: Phishing Email  
 Confidence: 95%
 
-## Notes
+## Note
 Replace data/sample_emails.csv with a larger labeled dataset for production use.
 
 ## Summary
