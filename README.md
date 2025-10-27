@@ -15,13 +15,13 @@ It’s lightweight, easy to run, and ideal for securing personal or enterprise e
 
 ## What This Does
 
-Analyzes the content, sender address, and embedded links in incoming emails.
+-Analyzes the content, sender address, and embedded links in incoming emails.
 
-Uses NLP and machine learning to identify suspicious words, tone, or phishing intent.
+-Uses NLP and machine learning to identify suspicious words, tone, or phishing intent.
 
-Alerts the user before they open or click on malicious content.
+-Alerts the user before they open or click on malicious content.
 
-Protects organizations from phishing and email-based attacks.
+-Protects organizations from phishing and email-based attacks.
 
 ##  Architecture
 
