@@ -1,12 +1,3 @@
-## Contact
-
-**Utkarsh Shukla**
-
-Email- utqrshkumar07@gmail.com
-
-GitHub- https://github.com/Utkarshshukla4
-
-
 
 ##  Overview
 
@@ -22,7 +13,15 @@ It’s lightweight, easy to run, and ideal for securing personal or enterprise e
 - Works on Windows and Linux  
 - Easy-to-use CLI interface  
 
+## What This Does
 
+Analyzes the content, sender address, and embedded links in incoming emails.
+
+Uses NLP and machine learning to identify suspicious words, tone, or phishing intent.
+
+Alerts the user before they open or click on malicious content.
+
+Protects organizations from phishing and email-based attacks.
 
 ##  Architecture
 
@@ -99,6 +98,7 @@ Paste an email message or subject line in the input box.
 
 ## Output Example
 Prediction: Phishing Email  
+
 Confidence: 95%
 
 ## Note
@@ -107,3 +107,12 @@ Replace data/sample_emails.csv with a larger labeled dataset for production use.
 ## Summary
 
 This project helps identify phishing attempts by examining textual features and suspicious words in email bodies.
+
+## Contact
+
+**Utkarsh Shukla**
+
+Email- utqrshkumar07@gmail.com
+
+GitHub- https://github.com/Utkarshshukla4
+
