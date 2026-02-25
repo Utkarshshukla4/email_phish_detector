@@ -13,7 +13,7 @@ It’s lightweight, easy to run, and ideal for securing personal or enterprise e
 - Works on Windows and Linux  
 - Easy-to-use CLI interface  
 
-## What This Does
+## What This Tool Does
 
 -Analyzes the content, sender address, and embedded links in incoming emails.
 
@@ -50,46 +50,47 @@ email-phish-detector/
    
 ## Steps
 
-Clone this repository.
+•Clone this repository.
 
-Create a virtual environment.
+•Create a virtual environment.
 
-Install dependencies.
+•Install dependencies.
 
 
 ## Installation
 
-git clone https://github.com/Utkarshshukla4/email_phish_detector.git
+•git clone https://github.com/Utkarshshukla4/email_phish_detector.git
 
-cd email_phish_detector
+•cd email_phish_detector
 
 ## Create Environment 
+
 _Windows:_
 
-python -m venv venv
+•python -m venv venv
 
-venv\Scripts\activate
+•venv\Scripts\activate
 
-pip install -r requirements.txt
+•pip install -r requirements.txt
 
 
 _Linux / macOS:_
 
-python3 -m venv venv
+•python3 -m venv venv
 
-source venv/bin/activate
+•source venv/bin/activate
 
-python3 -m pip install -r requirements.txt
+•python3 -m pip install -r requirements.txt
 
 
 ## Running the Project
 _Windows:-_
 
-python src/train.py
+•python src/train.py
 
 _Linux / macOS:-_
 
-python3 src/train.py
+•python3 src/train.py
 
 
 ## Input Example
