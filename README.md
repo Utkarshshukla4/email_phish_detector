@@ -1,121 +1,190 @@
+# Email Phishing Detector
 
-##  Overview
+## About the Project
 
-This project detects phishing emails using a trained machine learning model that analyzes subject lines, URLs, and header patterns.  
-It’s lightweight, easy to run, and ideal for securing personal or enterprise email systems.
+Email Phishing Detector is a Python-based cybersecurity project that uses machine learning to identify potentially malicious phishing emails.
 
+The system analyzes email content, subject lines, sender information, URLs, and other header patterns to classify an email as **Phishing** or **Not Phishing**. It also provides a confidence score for each prediction.
 
-##  Features
+---
 
-- Email text and header feature extraction  
-- Machine learning classification (phish / not phish)  
-- Confidence scoring for each result  
-- Works on Windows and Linux  
-- Easy-to-use CLI interface  
+## Main Features
 
-## What This Tool Does
+* Email text and header analysis
+* Subject and URL feature extraction
+* Machine learning-based classification
+* Phishing and legitimate email detection
+* Confidence score for predictions
+* NLP-based text analysis
+* Command-line interface
+* Supports Windows and Linux
 
--Analyzes the content, sender address, and embedded links in incoming emails.
+---
 
--Uses NLP and machine learning to identify suspicious words, tone, or phishing intent.
+## Technologies Used
 
--Alerts the user before they open or click on malicious content.
+* **Python** – Core development
+* **Machine Learning** – Email classification
+* **NLP** – Text analysis
+* **Random Forest / SVM** – Classification
+* **Email Parsing** – Header and content extraction
+* **Pandas** – Dataset processing
 
--Protects organizations from phishing and email-based attacks.
-
-##  Architecture
-
-[Email Input (.eml)] 
-      ↓
-[Text + Header Extractor]
-      ↓
-[Feature Engineering]
-      ↓
-[ML Model (Random Forest / SVM)]
-
-
+---
 
 ## Project Structure
 
+```text
 email-phish-detector/
+│
 ├── src/
+│   └── train.py
+│
 ├── sample_data/
+│   └── sample_emails.csv
+│
 ├── models/
+│
 ├── docs/
 │   └── architecture.png
+│
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
-   
-## Steps
+---
 
-•Clone this repository.
+## How It Works
 
-•Create a virtual environment.
+```text
+Email Input (.eml)
+        ↓
+Text & Header Extraction
+        ↓
+Feature Engineering
+        ↓
+Machine Learning Model
+        ↓
+Phishing / Not Phishing
+        ↓
+Confidence Score
+```
 
-•Install dependencies.
+The system extracts useful information from the email and processes it into features that can be analyzed by the trained machine learning model.
 
+---
 
 ## Installation
 
-•git clone https://github.com/Utkarshshukla4/email_phish_detector.git
+### 1. Clone the Repository
 
-•cd email_phish_detector
+```bash
+git clone https://github.com/Utkarshshukla4/email_phish_detector.git
+cd email_phish_detector
+```
 
-## Create Environment 
+### 2. Create Virtual Environment
 
-_Windows:_
+Windows:
 
-•python -m venv venv
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-•venv\Scripts\activate
+Linux/macOS:
 
-•pip install -r requirements.txt
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
+### 3. Install Dependencies
 
-_Linux / macOS:_
+Windows:
 
-•python3 -m venv venv
+```bash
+pip install -r requirements.txt
+```
 
-•source venv/bin/activate
+Linux/macOS:
 
-•python3 -m pip install -r requirements.txt
+```bash
+python3 -m pip install -r requirements.txt
+```
 
+---
 
 ## Running the Project
-_Windows:-_
 
-•python src/train.py
+### Windows
 
-_Linux / macOS:-_
+```bash
+python src/train.py
+```
 
-•python3 src/train.py
+### Linux/macOS
 
+```bash
+python3 src/train.py
+```
+
+The script trains the machine learning model using the available dataset and performs email phishing detection.
+
+---
 
 ## Input Example
 
-Paste an email message or subject line in the input box.
+Provide an email message or subject line as input to the application.
+
+Example:
+
+```text
+Subject: Urgent: Verify Your Account
+
+Your account has been temporarily restricted.
+Click the following link to verify your account.
+```
+
+---
 
 ## Output Example
-Prediction: Phishing Email  
 
+```text
+Prediction: Phishing Email
 Confidence: 95%
+```
+
+---
+
+## Security Application
+
+The project helps identify common phishing indicators such as suspicious wording, malicious links, and unusual email patterns.
+
+It can be used as a learning project for understanding how machine learning and NLP can support email security.
+
+---
 
 ## Note
-Replace data/sample_emails.csv with a larger labeled dataset for production use.
 
-## Summary
+For better accuracy and real-world use, replace `sample_data/sample_emails.csv` with a larger and properly labeled phishing email dataset.
 
-This project helps identify phishing attempts by examining textual features and suspicious words in email bodies.
+---
 
-## Contact
+## Future Improvements
+
+* Add a web-based interface
+* Analyze complete `.eml` files automatically
+* Improve detection using larger datasets
+* Add URL reputation checking
+* Integrate threat intelligence APIs
+* Add email attachment analysis
+
+---
+
+## Author
 
 **Utkarsh Shukla**
 
-_Cybersecurity Enthusiast_
-
-Email- utqrshkumar07@gmail.com
-
-GitHub- https://github.com/Utkarshshukla4
-
+Cybersecurity Project | Python | Machine Learning | Phishing Detection
